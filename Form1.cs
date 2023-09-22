@@ -30,8 +30,10 @@ namespace WindowsFormsApp2
         private void StartButton_Click(object sender, EventArgs e)
         {
             Button gomb = new Button();
-            this.Controls.Add(gomb);
             gomb.Text = "Exit";
+            gomb.Top = 104;
+            gomb.Left = 184;
+            this.Controls.Add(gomb);
         }
     }
 }
